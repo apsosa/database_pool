@@ -64,4 +64,4 @@ Lo cual refleja el comportamiento de las pool conection en Sequelize de la sigui
 - idle: 10000 (Remueve la pool conexion despues de estar inactiva por 10 segundos)
 
 ###### Consideraciones:
-- Si la base de datos se conectan a travez de muilples procesos, cada proceso va a generar una conexion a la base de datos, con lo cual hay que tener el en cuanta el total de pool conection que van a estar distribuidas entre cada proceso como indica la [https://sequelize.org/v6/manual/connection-pool.html](documentacion de sequelize)
+- Si la base de datos se conectan a travez de muilples procesos, cada proceso va a generar una conexion a la base de datos, con lo cual hay que tener el en cuanta el total de pool conection que van a estar distribuidas entre cada proceso como indica la (https://sequelize.org/v6/manual/connection-pool.html)[documentacion de sequelize]
